@@ -3,7 +3,6 @@
 *
 * An abstract base class to represent a bank account
 */
-import Customer.jar
 // Class must be abstract since it contains an abstract function definition
 abstract class Account (protected var number : String, protected var customer : Customer, protected var balance : Double) { 
 
