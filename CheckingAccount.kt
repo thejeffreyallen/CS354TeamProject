@@ -8,7 +8,6 @@
 //kotlinc CheckingAccount.kt -include-runtime -d CheckingAccount.jar
 //java -jar CheckingAccount.jar
 //class CheckingAccount( number: String, customer: Customer, balance: Double){
-      this.number = number
 class CheckingAccount(number : String, customer : Customer, balance : Double) : Account(number, customer, balance){
     override fun accrue(rate: Double){ }
     }
