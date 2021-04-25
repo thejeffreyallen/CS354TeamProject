@@ -5,7 +5,7 @@
 */
 // Class must be abstract since it contains an abstract function definition
 abstract class Account (protected var number : String, protected var customer : Customer, protected var balance : Double) { 
-
+  var interest : Double = 0.0
   //Must be abstract since there is no function body
   abstract fun accrue(rate : Double) 
 
